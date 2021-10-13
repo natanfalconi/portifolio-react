@@ -1,0 +1,116 @@
+.section-repository {
+    width: 100%;
+    height: 100%;
+    background: #5e72e4;
+}
+
+.section-repository h1 {
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem 0;
+    font-size: 1.9rem;
+}
+
+.section-repository-list {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    padding: 0 1.5rem;
+
+    color: #fafaf5;
+    gap: 20px; 
+}
+
+.section-repository-list li{
+    list-style: none;
+    background: #fafaf5;
+    color: #000;
+    border-radius: 8px;
+}
+
+.content-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.content-list h2 {
+    font-size: 1.3rem;
+    color: #202020;
+    margin-top: 0.5rem;
+}
+
+.content-list p {
+    font-size: 1rem;
+    color: #5e72e4;
+    opacity: 0.9;
+    margin: 1rem;
+}
+
+.content-list a {
+    color: #5e72e4;
+    background: #fafaf5;
+    width: 8rem;
+    height: 3rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    margin: 1rem;
+    font-weight: bold;
+    border: 1px solid #5e72e4;
+}
+
+.content-list a:hover {
+    background: #5e72e4;
+    color: #f4f4f4;
+}
+
+.content-list svg {
+    width: 20%;
+    height: 20%;
+}
+
+.section-repository .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.section-repository .pagination button {
+    width: 1.8rem;
+    height: 1.8rem;
+    background: #5e72e4;
+    cursor: pointer;
+    color: #fafaf5;
+    border: 1px solid #f4f4f4;
+    border-radius: 8px;
+    font-size: 1.1rem
+}
+
+.section-repository .pagination button:hover{
+    background: #f4f4f4;
+    color: #5e72e4;
+}
+
+@media(max-width: 1340px) {
+    .section-repository-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+}
+
+@media(max-width: 1120px) {
+    .section-repository-list {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+

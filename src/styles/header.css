@@ -1,0 +1,55 @@
+header {
+    height: 5rem;
+    
+    display: flex;
+    background: #5e72e4;
+    align-items: center;
+    color: #fff;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center
+}
+
+.logo-content {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-content img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* .social {
+    display: flex;
+} */
+
+.social-link {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link a svg{
+    color: #fff;
+    font-size: 1.2rem;
+}
